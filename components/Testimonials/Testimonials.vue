@@ -2,9 +2,9 @@
 <div class="root">
   <div :class="{ fixed: isDesktop }">
     <v-row class="spacing6">
-      <v-col md="5" offset-lg="1" cols="12" class="px-6">
+      <v-col lg="5" offset-lg="1" cols="12" class="px-6">
         <div class="item slider-wrap">
-          <hidden point="smDown">
+          <hidden point="mdDown">
             <div class="decoration">
               <svg width="900px" height="618px" viewBox="0 0 900 618" version="1.1">
                 <defs>
@@ -39,7 +39,7 @@
         </div>
         </div>
       </v-col>
-      <v-col md="6" cols="12" class="item use-hidden-sm-down px-6">
+      <v-col md="6" cols="12" class="item use-hidden-md-down px-6">
          <div class="illustration-right">
               <section v-if="loaded" class="parallax-wrap">
                 <parallax
@@ -50,22 +50,6 @@
                   <div class="viewport">
                     <figure class="figure screen">
                       <img :src="imgAPI.staking[0]" alt="screen" />
-                    </figure>
-                  </div>
-                </parallax>
-              </section>
-              <section
-                v-if="loaded && !isMobile"
-                class="parallax-wrap"
-              >
-                <parallax
-                  :speed-factor="isMobile ? 0 : 0.15"
-                  :section-height="100"
-                  direction="down"
-                >
-                  <div class="viewport">
-                    <figure class="figure graphic">
-                      <img :src="imgAPI.staking[1]" alt="illustration" />
                     </figure>
                   </div>
                 </parallax>
@@ -118,7 +102,7 @@ export default {
       return lgUp.includes(this.$mq)
     },
     isMobile() {
-      const smDown = this.$store.state.breakpoints.smDown
+      const smDown = this.$store.state.breakpoints.mdDown
       return smDown.includes(this.$mq)
     }
   },

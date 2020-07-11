@@ -40,10 +40,10 @@
     margin-bottom: $spacing20
   }
   @include breakpoints-down(md) {
-    margin-bottom: $spacing10
+    // margin-bottom: $spacing10
   }
   @include breakpoints-down(sm) {
-    margin-bottom: $spacing3
+    // margin-bottom: $spacing3
   }
   @include breakpoints-down(sm) {
     text-align: center
@@ -55,7 +55,7 @@
     .Masthead {
       overflow: visible;
       @include breakpoints-down(md) {
-        min-height: 25vh !important;
+        max-height: 100% !important;
         top: -30px;
       }
       .Masthead__image {
@@ -76,7 +76,7 @@
       margin: 0
     }
     .viewport  {
-      perspective: 1000px;
+      // perspective: 1000px;
     }
   }
   .figure {

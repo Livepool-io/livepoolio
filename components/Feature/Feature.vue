@@ -41,7 +41,7 @@
           <v-row :class="[isMobile ? 'column-reverse' : 'row']">
             <v-col cols="12" md="6">
               <div class="illustration-left">
-                <section v-if="loaded" class="parallax-wrap">
+                <section v-if="loaded" class="parallax-wrap use-hidden-md-down">
                   <parallax
                     :speed-factor="isMobile ? 0 : 0.15"
                     :section-height="isMobile ? 0 : 400"
@@ -54,7 +54,13 @@
                     </div>
                   </parallax>
                 </section>
-
+                <section v-if="loaded" class="use-hidden-md-up">
+                    <div class="viewport">
+                      <figure class="screen">
+                        <img class="responsive" src="/images/Excavator.png" alt="screen" />
+                      </figure>
+                    </div>
+                </section>
               </div>
             </v-col>
             <v-col md="6" cols="12">
@@ -110,7 +116,7 @@
           </v-col>
           <v-col md="6" cols="12">
             <div class="illustration-right">
-              <section v-if="loaded" class="parallax-wrap">
+              <section v-if="loaded" class="parallax-wrap use-hidden-md-down">
                 <parallax
                   :speed-factor="isMobile ? 0 : 0.15"
                   :section-height="isMobile ? 0 : 300"
@@ -122,6 +128,14 @@
                     </figure>
                   </div>
                 </parallax>
+              </section>
+              <section v-if="loaded" class="use-hidden-md-up">
+                  <div class="viewport">
+                    <figure class="screen">
+                      <img class="responsive" src="/images/parallel-transcoding.png" alt="screen" id="parallel-transcoding-img" />
+                    </figure>
+                  </div>
+            
               </section>
             </div>
           </v-col>

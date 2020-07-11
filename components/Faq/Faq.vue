@@ -71,12 +71,12 @@ const faqData = [
   {
     q: 'How do I receive payouts?',
     a:
-      'You will receive ETH payouts daily to the ETH address you provide when starting Livepool.'
+      'You will receive ETH payouts daily to the ETH address you provide when starting Livepool. To ensure profitability, Livepool will only pay out your balance when it is reasonable in comparison to the gas cost. If your balance is insufficient for payout, it will roll over to the next day.'
   },
   {
     q: 'How much can I expect to earn?',
     a:
-      'Vivamus sit amet interdum elit. Proin lacinia erat ac velit tempus auctor. '
+      'This depends on the demand coming into the Livepeer network and how much of that work Livepool is able to capture. Unlike cryptocurrency mining, Livepool uses very little energy and resources and will be idle when not transcoding.'
   },
   {
     q: 'Which GPUs can I use?',

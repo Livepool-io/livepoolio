@@ -37,12 +37,22 @@
             <p>Download and Install Livepool Binary</p>
             </div>
         <div class="col-lg-10 offset-lg-1 col-md-12">
-                      <p class="sub">Start by downloading the latest release for your OS</p>
-            <code>$ wget https://github.com/livepeer/go-livepeer/releases/download/$(RELEASE_VERSION)/livepeer-$(YOUR PLATFORM)-amd64.tar.gz</code>
+            <p class="sub">Start by downloading the latest release for your OS</p>
+            <div class="releases">
+              <v-btn class="mx-2" dark large color="btn-cta" href="https://github.com/Livepool-io/transcoder/releases/download/v0.5.7/0.5.7-55441d23_livepool-linux-amd64.tar.gz" target="_blank">
+                <v-icon dark>fab fa-linux</v-icon>   &nbsp; Linux
+             </v-btn>
+              <v-btn class="mx-2" dark large color="btn-cta" href="https://github.com/Livepool-io/transcoder/releases/download/v0.5.7/0.5.7-55441d23_livepool-darwin-amd64.tar.gz" target="_blank">
+                <v-icon dark>fab fa-apple</v-icon>  &nbsp; OS X
+             </v-btn>
+              <v-btn class="mx-2" dark large color="btn-cta" href="https://github.com/Livepool-io/transcoder/releases/download/v0.5.7/0.5.7-55441d23_livepool-windows-amd64.zip" target="_blank">
+                <v-icon dark>fab fa-windows</v-icon>  &nbsp; Windows
+             </v-btn>
+            </div>
             <p class="sub">Unpack the binary</p>
-            <code>$ mv livepeer-$(YOUR_PLATFORM)-amd64/livepeer /usr/local/bin</code>
+                        <code>$ tar -zxvf livepool-$(YOUR_PLATFORM)-amd64.tar.gz</code>
             <p class="sub">After unpacking move the binary so it is executable from your $PATH</p>
-            <code>$ tar -zxvf livepeer-$(YOUR_PLATFORM)-amd64.tar.gz</code>
+             <code>$ mv livepool-$(YOUR_PLATFORM)-amd64/livepeer /usr/local/bin</code>
         </div>
           
         </div>
@@ -70,7 +80,7 @@
             <div class="col-lg-10 offset-lg-1 col-md-12">
               <p class="sub">To start your Livepool Transcoder provide the <strong>Ethereum Address</strong> you want to receive payouts on and the GPUs you want to use for transcoding.
             </p>
-            <code>$ livepool -ethAcctAddress 0xF5ba856B4DBfBf3A56b01eFd0697fc188cE1aFD8 -nvidia 0,1</code>
+            <code>$ livepool -ethAcctAddress $(YOUR_ETH_ADDRESS) -nvidia $(PCIe IDs comma-separated)</code>
             </div>
             </div>
           </div>

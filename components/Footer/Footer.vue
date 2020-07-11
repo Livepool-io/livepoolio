@@ -40,6 +40,9 @@
             <v-btn class="mx-2" fab dark large color="btn-cta" href="https://t.me/livepool" target="_blank">
               <v-icon dark class="fab fa-telegram-plane"></v-icon>
             </v-btn>
+            <v-btn class="mx-2" fab dark large color="btn-cta" href="https://github.com/Livepool-io" target="_blank">
+              <v-icon dark>fab fa-github</v-icon>
+            </v-btn>
           </div>
         </v-col>
                 <v-col

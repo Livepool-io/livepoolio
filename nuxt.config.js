@@ -185,8 +185,8 @@ module.exports = {
           smUp: 960,
           mdDown: 1279,
           mdUp: 1280,
-          lgDown: 1919,
-          lgUp: 1920,
+          lgDown: 1899,
+          lgUp: 1900,
           xl: Infinity
         }
       }

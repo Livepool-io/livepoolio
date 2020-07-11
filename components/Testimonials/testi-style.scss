@@ -5,7 +5,7 @@
   @include breakpoints-up(sm) {
     padding-bottom: $spacing8
   }
-  @include breakpoints-down(sm) {
+  @include breakpoints-down(md) {
     background: linear-gradient(-45deg, $palette-primary-main 20%, $palette-primary-dark 70%);
   }
   @include breakpoints-down(xs) {

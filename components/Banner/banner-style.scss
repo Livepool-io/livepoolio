@@ -157,10 +157,14 @@ $wave-deco-dark: '/images/saas/deco-wave-dark.svg';
   img {
     display: block;
     @include breakpoints-up(md) {
-      max-width: 400px
+      max-width: 900px;
+      margin-left: -150px;
+      margin-top: -50px;
     }
     @include breakpoints-up(lg) {
-      max-width: 480px
+      margin-left: -250px;
+      margin-top: -200px;
+      max-width: 1300px; 
     }
   }
 }
@@ -264,3 +268,8 @@ $wave-deco-dark: '/images/saas/deco-wave-dark.svg';
   margin-right: 20px;
 }
 .grayscale { filter: invert(100%); }
+
+.banner-img {
+  width: 100%;
+  height: 100%;
+}

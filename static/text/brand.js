@@ -6,10 +6,10 @@ const brand = {
     footerText: 'Livepool',
     logoText: 'Livepool',
     projectName: 'Livepool',
-    url: 'veluxi.ux-maestro.com/saas',
+    url: '',
     img: '/static/images/logo.svg',
     notifMsg:
-      'Donec sit amet nulla sed arcu pulvinar ultricies commodo id ligula.'
+      ''
   }
 }
 

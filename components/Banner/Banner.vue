@@ -74,9 +74,9 @@
             </v-btn>
           </div>
         </v-col>
-        <v-col class="d-xs-none" cols=12 md=6 sm=12>
+        <v-col cols=12 md=6 sm=12>
                   <div class="illustration">
-          <img :src="imgAPI.saas[7]" alt="illustration" />
+          <img src="/images/banner.png" alt="illustration" />
         </div>
         </v-col>
       </v-row>

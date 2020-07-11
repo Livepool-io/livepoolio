@@ -3,7 +3,7 @@ const link = {
     home: '/',
     contact: '/contact',
     login: '/login',
-    openapp: 'http://localhost:8080'
+    openapp: 'https://app.livepool.io/#/overview'
   }
 }
 

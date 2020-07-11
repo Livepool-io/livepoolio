@@ -63,7 +63,7 @@
                     {{ $t('saasLanding.header_'+item.name) }}
                   </v-btn>
                 </li>
-                <li>
+                <li style="display: none;">
                   <v-btn
                     :href="link.saas.contact"
                     text
@@ -135,11 +135,12 @@ export default {
       section: 0,
       fixed: false,
       openDrawer: null,
-      navOffset: 20,
+      navOffset: 60,
       menuList: [
-        createData(navMenu[0], '#' + navMenu[0]),
+        createData(navMenu[0], '#' + navMenu[0], 60),
         createData(navMenu[1], '#' + navMenu[1]),
-        createData(navMenu[2], '#' + navMenu[2], -40)
+        createData(navMenu[2], '#' + navMenu[2], 60),
+        createData(navMenu[3], "#" + navMenu[3])
       ]
     }
   },
