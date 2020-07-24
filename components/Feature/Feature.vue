@@ -29,7 +29,7 @@
                         {{ $t('saasLanding.feature_desc1') }}
                       </h6>
                       <div class="illustration-center">
-                          <img src="/images/excavator_flat.png" alt="screen" />
+                          <img src="/images/livepool-excavator-flat.png" alt="screen" />
                       </div>
                     </section>
             </v-col>
@@ -49,7 +49,7 @@
                   >
                     <div class="viewport">
                       <figure class="screen">
-                        <img class="responsive" src="/images/Excavator.png" alt="screen" />
+                        <img class="responsive" src="/images/livepool-transcoding.png" alt="screen" />
                       </figure>
                     </div>
                   </parallax>
@@ -57,7 +57,7 @@
                 <section v-if="loaded" class="use-hidden-md-up">
                     <div class="viewport">
                       <figure class="screen">
-                        <img class="responsive" src="/images/Excavator.png" alt="screen" />
+                        <img class="responsive" src="/images/livepool-transcoding.png" alt="screen" />
                       </figure>
                     </div>
                 </section>
@@ -124,7 +124,7 @@
                 >
                   <div class="viewport">
                     <figure class="screen">
-                      <img class="responsive" src="/images/parallel-transcoding.png" alt="screen" id="parallel-transcoding-img" />
+                      <img class="responsive" src="/images/livepool-parallel-work.png" alt="screen" id="parallel-transcoding-img" />
                     </figure>
                   </div>
                 </parallax>
@@ -132,7 +132,7 @@
               <section v-if="loaded" class="use-hidden-md-up">
                   <div class="viewport">
                     <figure class="screen">
-                      <img class="responsive" src="/images/parallel-transcoding.png" alt="screen" id="parallel-transcoding-img" />
+                      <img class="responsive" src="/images/livepool-parallel-work.png" alt="screen" id="parallel-transcoding-img" />
                     </figure>
                   </div>
             

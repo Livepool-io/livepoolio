@@ -76,7 +76,7 @@
         </v-col>
         <v-col cols=12 md=6 sm=12>
                   <div class="illustration">
-          <img src="/images/banner.png" alt="illustration" />
+          <img src="/images/livepool-banner.png" alt="illustration" />
         </div>
         </v-col>
       </v-row>
