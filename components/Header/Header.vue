@@ -79,7 +79,7 @@
             class="nav-menu"
           >
             <hidden point="xsDown">
-              <v-btn :href="link.saas.openapp" target="_blank" color="btn-cta" class="button">
+              <v-btn :href="link.saas.openapp" target="_blank" color="btn-cta" class="button btn-cta">
               {{ $t('saasLanding.header_openapp') }}  <v-icon right>fas fa-external-link-alt</v-icon>  
               </v-btn>
             </hidden>

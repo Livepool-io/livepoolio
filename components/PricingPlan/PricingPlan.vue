@@ -37,7 +37,7 @@
             <p>Download and Install Livepool Binary</p>
             </div>
         <div class="col-lg-10 offset-lg-1 col-md-12">
-            <p class="sub">Start by downloading the latest release for your OS</p>
+            <div class="subt">Start by downloading the latest release for your OS</div>
             <div class="releases">
               <v-btn class="mx-2" dark large color="btn-cta" href="https://github.com/Livepool-io/transcoder/releases/download/v0.5.7/0.5.7-55441d23_livepool-linux-amd64.tar.gz" target="_blank">
                 <v-icon dark>fab fa-linux</v-icon>   &nbsp; Linux
@@ -49,10 +49,10 @@
                 <v-icon dark>fab fa-windows</v-icon>  &nbsp; Windows
              </v-btn>
             </div>
-            <p class="sub">Unpack the binary</p>
-                        <code>$ tar -zxvf livepool-$(YOUR_PLATFORM)-amd64.tar.gz</code>
-            <p class="sub">After unpacking move the binary so it is executable from your $PATH</p>
-             <code>$ mv livepool-$(YOUR_PLATFORM)-amd64/livepeer /usr/local/bin</code>
+            <div class="subt">Unpack the binary</div>
+                        <div class="lpcode">$ tar -zxvf livepool-$(YOUR_PLATFORM)-amd64.tar.gz</div>
+            <div class="subt">After unpacking move the binary so it is executable from your $PATH</div>
+             <div class="lpcode">$ mv livepool-$(YOUR_PLATFORM)-amd64/livepeer /usr/local/bin</div>
         </div>
           
         </div>
@@ -63,11 +63,11 @@
             <p>Find your GPU PCIEe IDs</p>
                       </div>
         <div class="col-lg-10 offset-lg-1 col-md-12">
-               <p class="sub"> These are the IDs of the PCIe slots on the motherboard that your GPUs are installed in. These are numbered starting at 0.
+               <div class="subt"> These are the IDs of the PCIe slots on the motherboard that your GPUs are installed in. These are numbered starting at 0.
               You can find the IDs by installing and running the nvidia-smi tool. 
-            </p>
-            <p class="sub">Eg. If you have 2 GPUs installed in your first two PCIe slots, your IDs should be 0 and 1</p>
-            <code>$ nvidia-smi</code>
+            </div>
+            <div class="subt">Eg. If you have 2 GPUs installed in your first two PCIe slots, your IDs should be 0 and 1</div>
+            <div class="lpcode">$ nvidia-smi</div>
         </div>
         </div>
 
@@ -78,9 +78,9 @@
             <p>Start Livepool Transcoder</p>
              </div>
             <div class="col-lg-10 offset-lg-1 col-md-12">
-              <p class="sub">To start your Livepool Transcoder provide the <strong>Ethereum Address</strong> you want to receive payouts on and the GPUs you want to use for transcoding.
-            </p>
-            <code>$ livepool -ethAcctAddress $(YOUR_ETH_ADDRESS) -nvidia $(PCIe IDs comma-separated)</code>
+              <div class="subt">To start your Livepool Transcoder provide the <strong>Ethereum Address</strong> you want to receive payouts on and the GPUs you want to use for transcoding.
+            </div>
+            <div class="lpcode">$ livepool -ethAcctAddress $(YOUR_ETH_ADDRESS) -nvidia $(PCIe IDs comma-separated)</div>
             </div>
             </div>
           </div>

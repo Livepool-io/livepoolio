@@ -44,7 +44,7 @@
           <v-btn
             v-on="on"
             fab
-            class="fab anchor-link scrollactive-item"
+            class="up-top fab anchor-link scrollactive-item"
             href="#home"
           >
             <v-icon dark class="icon">mdi-arrow-up</v-icon>

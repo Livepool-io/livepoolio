@@ -106,32 +106,24 @@ import Header from '~/components/Header'
 import Hidden from '~/components/Hidden'
 import PageNav from '~/components/PageNav'
 import Banner from '~/components/Banner'
-import CompanyLogo from '~/components/CompanyLogo'
-import Counter from '~/components/Counter'
 import Feature from '~/components/Feature'
 import Testimonials from '~/components/Testimonials'
 import PricingPlan from '~/components/PricingPlan'
 import Faq from '~/components/Faq'
-import NewsEvent from '~/components/NewsEvent'
 import FooterWithDeco from '~/components/Footer/FooterWithDeco'
-import Notification from '~/components/Notification'
 import brand from '~/static/text/brand'
 
 export default {
   components: {
     'main-header': Header,
     Banner,
-    CompanyLogo,
-    Counter,
     Feature,
     Testimonials,
     PricingPlan,
     Faq,
-    NewsEvent,
     FooterWithDeco,
     PageNav,
     Hidden,
-    Notification
   },
   computed: {
     isTablet() {

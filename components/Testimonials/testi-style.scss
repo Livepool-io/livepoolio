@@ -1,4 +1,3 @@
-@import '@fortawesome/fontawesome-free/css/all.css'; // Ensure you are using css-loader
 
 .root {
   position: relative;
@@ -44,7 +43,8 @@
   padding-left: 10px;
   padding-right: 10px;
 }
-.testi-title {
+.staking-content.testi-title {
+  z-index: 99;
   position: relative;
   padding-top: $spacing7;
   color: $palette-common-white;
@@ -53,7 +53,7 @@
   }
 }
 
-.testi-subtitle {
+.staking-content.testi-subtitle {
   position: relative;
   padding-top: $spacing4;
   color: $palette-common-white;
@@ -143,40 +143,6 @@
   }
 }
 
-.illustration-left {
-  position: relative;
-  z-index: 1;
-  max-height: 600px;
-  height: 100%;
-  @include breakpoints-up(md) {
-    top: 40px;
-  }
-  .screen {
-    @include breakpoints-up(md) {
-      margin-top: 350px;
-      .v-application--is-ltr & {
-        transform: rotateY(30deg)
-      }
-      .v-application--is-rtl & {
-        transform: rotateY(-30deg)
-      }
-    }
-  }
-  .graphic {
-    top: 200px;
-    @include left(70px);
-    width: 360px;
-    @include breakpoints-up(md) {
-      .v-application--is-ltr & {
-        transform: rotateY( 30deg ) rotateX(-5deg) rotateZ(0deg)
-      }
-      .v-application--is-rtl & {
-        transform: rotateY( -30deg ) rotateX(-5deg) rotateZ(0deg)
-      }
-    }
-  }
-}
-
 
 .illustration-right {
   position: relative;
@@ -222,22 +188,8 @@
   }
 }
 
-.illustration-center {
-  perspective: 1000px;
-  .figure.screen {
-    display: block;
-    text-align: center;
-    max-width: 700px;
-    margin: -50px auto 0;
-    transform: rotateY( 0 ) rotateX(35deg) rotateZ(0deg);
-    img {
-      margin: 0 auto;
-      width: 100%
-    }
+.btn-cta {
+  .v-icon{
+    font-size: 12px;
   }
-}
-
-.v-btn  {
-  font-size:16px;
-font-weight:200;
 }

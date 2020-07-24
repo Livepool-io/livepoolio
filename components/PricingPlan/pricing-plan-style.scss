@@ -34,7 +34,6 @@
   }
 }
 
-.pricing-wrap {
 
   .item {
     position: relative;
@@ -45,44 +44,46 @@
     margin-bottom: 20px;
   }
 
-  span {
+span {
     font: bold 36pt helvetica, arial, sans-serif;
     color: #ccc;
     line-height: 25px;
   }
   
-  p {
+p {
     font: 16pt 'Poppins','Fira Mono', helvetica, arial, sans-serif;
     color: $dark-text-primary;
     padding-left: 40px;
     text-transform:uppercase;
   }
   
-  .sub {
-    font: 12pt 'Fira Mono', helvetica, arial, sans-serif;
+  .pricing-wrap.subt {
+    z-index:99;
+    font-style: 12pt 'Fira Mono', helvetica, arial, sans-serif;
     color: $dark-text-primary;
     padding-left: 40px;
     opacity: 80%;
     text-transform:none;
   }
 
-  code {
-    z-index:99 !important;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    margin-left: 60px;
-    background:#292E39;
-    padding:12px 0px 12px 6px;
-    color:#ecf0f1;
-    border-radius:5px;
-    width:80%;
-    overflow-x:auto !important;
-    white-space: pre;
-    font-weight:300;
-  }
-}
 
-.releases {
-  text-align:center;
-   margin: 20px 0;
+  .releases {
+    text-align:center;
+     margin: 20px 0;
+  }
+
+
+.lpcode {
+  z-index:99 !important;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+  background:#292E39;
+  padding:12px 0px 12px 6px;
+  color:#ecf0f1;
+  border-radius:5px;
+  width:80% !important;
+  overflow-x:auto !important;
+  white-space: pre;
+  font-weight:300;
 }

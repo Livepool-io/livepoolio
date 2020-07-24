@@ -10,9 +10,9 @@
         }"
         id="main-wrap"
       >
-        <v-content>
+        <v-main>
           <nuxt />
-        </v-content>
+        </v-main>
       </div>
     </transition>
   </v-app>

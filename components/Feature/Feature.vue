@@ -165,7 +165,7 @@
               </div>
               <div v-else>
                 <div class="illustration-center illustration-notop">
-                        <img  class="responsive" src="/images/livepeer-white.png" alt="illustration" />
+                        <img class="" src="/images/livepeer-white.png" alt="illustration" />
                       </div>
                 </div>
             </v-col>
@@ -234,11 +234,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-.responsive {
-  width: 100%;
-  height: auto;
-  text-align:center;
-}
-</style>

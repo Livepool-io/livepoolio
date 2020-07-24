@@ -19,7 +19,7 @@
               </svg>
             </div>
           </hidden>
-         <div class="wrapper-content">
+         <div class="wrapper-content staking-content">
             <title-main :align="isMobile ? 'center' : 'left'">
                     <span>
                                  {{ $t('saasLanding.testi_title') }}
@@ -32,7 +32,7 @@
             class="testi-subtitle use-text-subtitle2 text-left"
             ></p>
 
-            <v-btn class="button" target="_blank" href="https://explorer.livepeer.org/accounts/0xf4e8ef0763bcb2b1af693f5970a00050a6ac7e1b/campaign" color="btn-cta">
+            <v-btn class="button btn-cta" target="_blank" href="https://explorer.livepeer.org/accounts/0xf4e8ef0763bcb2b1af693f5970a00050a6ac7e1b/campaign" color="btn-cta">
               Stake LPT
                   <v-icon dark right>fas fa-external-link-alt</v-icon>
             </v-btn>

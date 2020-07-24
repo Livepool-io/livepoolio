@@ -244,7 +244,6 @@
 
 .illustration-notop {
   text-align:center;
-  opacity:75%;
   @include breakpoints-up(md) {
     max-width:80%;
     left: 50px;
@@ -259,4 +258,10 @@
 .Masthead__image{
   overflow-y:visible !important;
   overflow-x: visible !important;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+  text-align:center;
 }
