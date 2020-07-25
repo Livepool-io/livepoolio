@@ -69,7 +69,7 @@ p {
 
   .releases {
     text-align:center;
-     margin: 20px;
+    margin: 20px;
   }
 
 
@@ -88,5 +88,6 @@ p {
   font-weight:300;
   @include breakpoints-down(md) {
     width: 100% !important;
+    margin-left: 0px; 
   }
 }
