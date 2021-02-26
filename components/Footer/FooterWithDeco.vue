@@ -1,5 +1,6 @@
 <template>
   <div class="footer-deco">
+    <!--
     <div class="decoration">
       <svg class="left-deco">
         <use xlink:href="/images/saas/deco-bg-left.svg#main" />
@@ -8,6 +9,7 @@
         <use xlink:href="/images/saas/deco-bg-right.svg#main" />
       </svg>
     </div>
+    -->
     <div class="action">
       <h4 class="use-text-title">
         {{ $t('saasLanding.footer_waiting') }}
