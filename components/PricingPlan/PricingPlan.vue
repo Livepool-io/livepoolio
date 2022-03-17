@@ -39,14 +39,14 @@
         <div class="col-lg-10 offset-lg-1 col-md-12">
             <div class="subt">Start by downloading the latest release for your OS</div>
             <div class="releases">
-              <v-btn class="mx-2 my-2" dark large color="btn-cta" href="https://github.com/Livepool-io/transcoder/releases/download/v0.5.22/0.5.22-ebad9712_livepool-linux-amd64.tar.gz" target="_blank">
+              <v-btn class="mx-2 my-2" dark large color="btn-cta" href="https://github.com/Livepool-io/transcoder/releases/download/v0.5.28/0.5.28-80b8f968_livepool-linux-amd64.tar.gz" target="_blank">
                 <v-icon dark>fab fa-linux</v-icon>   &nbsp; Linux
+             </v-btn>
+              <v-btn class="mx-2 my-2" dark large color="btn-cta" href="https://github.com/Livepool-io/transcoder/releases/download/v0.5.28/0.5.28-80b8f968_livepool-windows-amd64.zip" target="_blank">
+                <v-icon dark>fab fa-windows</v-icon>  &nbsp; Windows
              </v-btn>
               <v-btn class="mx-2 my-2" dark large disabled color="btn-cta" href="https://github.com/Livepool-io/transcoder/releases/download/v0.5.22/0.5.22-ebad9712_livepool-darwin-amd64.tar.gz" target="_blank">
                 <v-icon dark>fab fa-apple</v-icon>  &nbsp; OS X
-             </v-btn>
-              <v-btn class="mx-2 my-2" dark large color="btn-cta" href="https://github.com/Livepool-io/transcoder/releases/download/v0.5.22/0.5.22-ebad9712_livepool-windows-amd64.zip" target="_blank">
-                <v-icon dark>fab fa-windows</v-icon>  &nbsp; Windows
              </v-btn>
             </div>
             <div class="subt">Unpack the binary</div>
